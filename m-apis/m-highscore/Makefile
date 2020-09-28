@@ -9,7 +9,7 @@ help:                                  ## Print list of tasks
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9_%-]+:.*?## / {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}' Makefile
 
 build: clean proto-link                ## Build go project
-	go build -o build/main main.go
+	go build -o build/main ./cli/server/main.go
 
 clean:
 	rm -rf vendor
