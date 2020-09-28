@@ -1,4 +1,4 @@
-module github.com/fvukojevic/grpc_test
+module github.com/fvukojevic/grpc_test/m-apis/m-highscore
 
 go 1.14
 
