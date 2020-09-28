@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	grpcSetup "github.com/fvukojevic/grpc_test/m-apis/m-highscore/internal/server/grpc"
+	grpcSetup "github.com/fvukojevic/grpc_test/m-apis/m-highscore/internal_usage/server/grpc"
 	"github.com/rs/zerolog/log"
 )
 
