@@ -46,7 +46,7 @@ func (g *Grpc) ListenAndServe() error {
 		return errors.Wrap(err, "Failed to open tcp port")
 	}
 
-	serverOpts := []grpc.ServerOption{}
+	var serverOpts []grpc.ServerOption
 
 	g.srv = grpc.NewServer(serverOpts...)
 
