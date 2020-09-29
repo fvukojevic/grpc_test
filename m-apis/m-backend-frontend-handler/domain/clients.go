@@ -2,7 +2,7 @@ package domain
 
 import (
 	v1gameengine "github.com/fvukojevic/grpc_test/m-apis/m-game-engine/v1"
-	v1highscore "github.com/fvukojevic/m-apis/m-highscore/v1"
+	v1highscore "github.com/fvukojevic/grpc_test/m-apis/m-highscore/v1"
 	"github.com/rs/zerolog/log"
 	"google.golang.org/grpc"
 )
